@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+h1 {
+    background-color: red;
+    text-align: right;
+    padding: 20px;
+	padding-right: 100px;
+	margin: 0;	
+}
+.menu {
+    background-color: #7F7F7F;
+    margin: 0;
+}
+.menu li {
+    display: inline-block;
+    padding: 10px;
+
+}
+.menu li:hover {
+    background-color: black;
+
+}
+
+.menu li:nth-child(2):hover #ddn_1, .menu li:nth-child(3):hover #ddn_2 {
+    display: block;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#ddn_1, #ddn_2 {
+    display: none;
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 120px;
+    padding: 0;
+    width: auto;
+    max-width: 150px;
+}
+
+#ddn_1 li, #ddn_2 li {
+    display: block;
+}
+#ddn_1 li:hover, #ddn_2 li:hover {
+    background-color: #F5F5F5;
+}
+#ddn_1 li a, #ddn_2 li a  {
+    color: #587FAF;
+    font-size: 15px;
+}
